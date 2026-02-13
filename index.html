@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Plant Pure Technologies | Purifying Water Naturally</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+<style>
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:'Poppins', sans-serif;
+scroll-behavior:smooth;
+}
+
+body{
+background:#f4f9f6;
+color:#333;
+line-height:1.6;
+}
+
+/* Header */
+header{
+background:#0b5d3b;
+color:white;
+padding:20px 60px;
+display:flex;
+justify-content:space-between;
+align-items:center;
+position:fixed;
+width:100%;
+top:0;
+z-index:1000;
+}
+
+header h1{
+font-size:22px;
+}
+
+nav a{
+color:white;
+text-decoration:none;
+margin-left:25px;
+font-weight:500;
+transition:0.3s;
+}
+
+nav a:hover{
+color:#9fffc4;
+}
+
+/* Hero */
+.hero{
+height:100vh;
+background:linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),
+url('https://images.unsplash.com/photo-1508780709619-79562169bc64');
+background-size:cover;
+background-position:center;
+display:flex;
+flex-direction:column;
+justify-content:center;
+align-items:center;
+text-align:center;
+color:white;
+padding:20px;
+}
+
+.hero h2{
+font-size:50px;
+margin-bottom:20px;
+}
+
+.hero p{
+max-width:700px;
+font-size:18px;
+}
+
+.btn{
+margin-top:30px;
+padding:12px 30px;
+background:#1ec773;
+color:white;
+border:none;
+text-decoration:none;
+font-weight:600;
+border-radius:5px;
+transition:0.3s;
+}
+
+.btn:hover{
+background:#16a15b;
+transform:scale(1.05);
+}
+
+/* Sections */
+.section{
+padding:100px 60px;
+}
+
+.section h2{
+text-align:center;
+margin-bottom:50px;
+color:#0b5d3b;
+font-size:34px;
+}
+
+/* About */
+.about{
+display:flex;
+gap:50px;
+align-items:center;
+}
+
+.about img{
+width:50%;
+border-radius:10px;
+box-shadow:0 5px 15px rgba(0,0,0,0.2);
+}
+
+.about-text{
+width:50%;
+}
+
+/* Cards */
+.services, .pricing{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:30px;
+}
+
+.card{
+background:white;
+padding:30px;
+border-radius:10px;
+box-shadow:0 5px 15px rgba(0,0,0,0.08);
+transition:0.4s;
+}
+
+.card:hover{
+transform:translateY(-10px);
+}
+
+.card h3{
+margin-bottom:15px;
+color:#0b5d3b;
+}
+
+/* Projects */
+.projects{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
+gap:20px;
+}
+
+.projects img{
+width:100%;
+border-radius:10px;
+box-shadow:0 5px 15px rgba(0,0,0,0.15);
+}
+
+/* Contact */
+.contact form{
+max-width:600px;
+margin:auto;
+display:flex;
+flex-direction:column;
+gap:15px;
+}
+
+.contact input,
+.contact textarea{
+padding:12px;
+border:1px solid #ccc;
+border-radius:5px;
+font-size:15px;
+}
+
+.contact button{
+padding:12px;
+background:#0b5d3b;
+color:white;
+border:none;
+font-size:16px;
+border-radius:5px;
+cursor:pointer;
+}
+
+.contact button:hover{
+background:#08442b;
+}
+
+/* Footer */
+footer{
+background:#0b5d3b;
+color:white;
+text-align:center;
+padding:20px;
+}
+
+/* Responsive */
+@media(max-width:900px){
+.about{
+flex-direction:column;
+}
+.about img,
+.about-text{
+width:100%;
+}
+header{
+flex-direction:column;
+text-align:center;
+}
+}
+</style>
+</head>
+
+<body>
+
+<header>
+<h1>Plant Pure Technologies</h1>
+<nav>
+<a href="#about">About</a>
+<a href="#vision">Vision</a>
+<a href="#services">Solutions</a>
+<a href="#pricing">Pricing</a>
+<a href="#contact">Contact</a>
+</nav>
+</header>
+
+<section class="hero">
+<h2>Purifying Water Naturally</h2>
+<p>Innovative plant-based phytoremediation systems designed to restore polluted water bodies sustainably and efficiently.</p>
+<a href="#services" class="btn">Explore Solutions</a>
+</section>
+
+<section id="about" class="section">
+<h2>About Phytoremediation</h2>
+<div class="about">
+<img src="https://images.unsplash.com/photo-1523741543316-beb7fc7023d8">
+<div class="about-text">
+<p>
+Phytoremediation is an eco-friendly water treatment technique that uses plants to remove heavy metals,
+toxins, and excess nutrients from polluted water.
+</p>
+<br>
+<p>
+We use sustainable plant technology to clean rivers, lakes, ponds, and industrial wastewater systems.
+</p>
+</div>
+</div>
+</section>
+
+<section id="vision" class="section">
+<h2>Vision & Mission</h2>
+<div class="services">
+<div class="card">
+<h3>🌍 Vision</h3>
+<p><strong>“Clean water for all through nature-based solutions.”</strong></p>
+</div>
+<div class="card">
+<h3>🎯 Mission</h3>
+<p><strong>“To purify polluted water using sustainable plant technology.”</strong></p>
+</div>
+</div>
+</section>
+
+<section id="services" class="section">
+<h2>Our Plant-Based Solutions</h2>
+<div class="services">
+<div class="card">
+<h3>Small Floating Plant Purifier</h3>
+<p>Ideal for ponds and small lakes using floating treatment wetlands.</p>
+</div>
+<div class="card">
+<h3>River & Community Systems</h3>
+<p>Medium-scale eco-treatment systems for villages and towns.</p>
+</div>
+<div class="card">
+<h3>Industrial & Municipal Projects</h3>
+<p>Large-scale customized phytoremediation and effluent treatment systems.</p>
+</div>
+<div class="card">
+<h3>Monthly Maintenance Services</h3>
+<p>Regular monitoring and plant management for optimal performance.</p>
+</div>
+</div>
+</section>
+
+<section id="pricing" class="section">
+<h2>💰 Pricing Details</h2>
+<div class="pricing">
+<div class="card">
+<h3>Small Floating Plant Purifier</h3>
+<p>₹25,000 – ₹60,000 per unit</p>
+</div>
+<div class="card">
+<h3>Medium River / Community System</h3>
+<p>₹1.5 lakh – ₹5 lakh</p>
+</div>
+<div class="card">
+<h3>Large Industrial / Municipal Project</h3>
+<p>₹10 lakh – ₹50 lakh+ (Custom Design)</p>
+</div>
+<div class="card">
+<h3>Maintenance Service (Monthly)</h3>
+<p>₹3,000 – ₹15,000</p>
+</div>
+</div>
+</section>
+
+<section id="contact" class="section contact">
+<h2>Contact Us</h2>
+<form action="https://formsubmit.co/Priyashaiva2002@gmail.com" method="POST">
+<input type="text" name="name" placeholder="Your Name" required>
+<input type="email" name="email" placeholder="Your Email" required>
+<textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+<button type="submit">Send Message</button>
+</form>
+</section>
+
+<footer>
+<p>© 2026 Plant Pure Technologies | Purifying Water Naturally</p>
+</footer>
+
+</body>
+</html>
